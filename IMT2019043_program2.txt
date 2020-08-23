@@ -1,0 +1,25 @@
+main()
+{
+int a = 100;
+int b = -50;
+int c = -10;
+int d = 10;
+int e = 11;
+int ac = 0;
+int mq = 0;
+ac = a;
+ac = b;
+ac = |c|;
+ac = -|d|;
+goto JUMP;
+// task 1;
+// task 2;
+// task 3;
+JUMP: 
+ac = ac + |d|;
+ac = ac - |b|;
+mq = ac / e;
+ac = ac % e;
+ac = ac << 1;
+ac = ac >> 1;
+}
